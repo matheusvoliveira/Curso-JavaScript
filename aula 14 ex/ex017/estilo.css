@@ -1,0 +1,40 @@
+body{
+    background: rgb(33, 154, 188);
+    font: normal 15pt arial;
+}
+header{
+    color: white;
+    text-align: center;
+
+}
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgb(62, 61, 61);
+
+}
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+#button{
+    position: relative ;
+    bottom: 50px;
+    left: 260px;
+    background-color: red;
+    padding: 12px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 6px 6px 15px gray;
+    
+}
+/* #res{
+    border: solid 1px;
+    height: 200px;
+    width: 117px;
+    overflow-x: scroll;
+} */

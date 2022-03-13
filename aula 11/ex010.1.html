@@ -1,0 +1,31 @@
+<!-- o mesmo progrma da aula 10 rodando no navegador -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passaporte</title>
+</head>
+<body>
+    <h1>Nacionalidadee</h1>
+    Pais que nasceu: <input type='text' name='nac' id='nac'>
+    <input type='button' value='click' onclick='verificar()'>
+    <div id='res'>
+
+    </div>
+    <script>
+        function verificar(){
+            var pais = window.document.getElementById('nac')
+            var res = window.document.getElementById('res')
+            var pais2 = String(pais.value)
+            res.innerHTML += `<p> Você nasceu no ${pais2}!</p>`
+            if (pais2 == 'Brasil') {
+                res.innerHTML = `<p> Você é brasileiro.</p>`
+            } else {
+                res.innerHTML += `<p>Você é estrangeiro.</p>`
+            }
+        }
+    </script>
+</body>
+</html>

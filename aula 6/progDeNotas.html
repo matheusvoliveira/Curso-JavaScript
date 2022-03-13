@@ -1,0 +1,23 @@
+<!-- Fazendo um programa simples com JS -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        nota1 = Number(window.prompt('Digite a sua primeira nota:'))
+        nota2 = Number(window.prompt('Digite a sua segunda nota:'))
+        nota3 = Number(window.prompt('Digite a sua terceira nota:'))
+        var media = (nota1 + nota2 + nota3) / 3
+        var aprov = media >= 6?'Aprovado! \nParabens!':'Reprovado \nEstude mais!'
+        window.alert(`Sua media foi ${media}! \n${aprov}`)
+        
+    </script>
+</body>
+</html>
